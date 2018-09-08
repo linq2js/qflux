@@ -1,0 +1,51 @@
+{
+  "name": "qflux",
+  "version": "1.0.0",
+  "description": "A tiny Flux implement for React",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linq2js/qflux.git"
+  },
+  "keywords": [
+    "functional",
+    "functional programming",
+    "declarative programming",
+    "flux",
+    "react",
+    "es6",
+    "state",
+    "state management",
+    "redux",
+    "store"
+  ],
+  "author": "linq2js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linq2js/qflux/issues"
+  },
+  "homepage": "https://github.com/linq2js/qflux#readme",
+  "dependencies": {
+    "react": "^16.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.1.0",
+    "node-fetch": "^2.2.0",
+    "enzyme": "^3.5.0",
+    "enzyme-adapter-react-16": "^1.3.1",
+    "react-dom": "^16.4.2",
+    "react": "^16.4.2"
+  },
+  "jest": {
+    "transformIgnorePatterns": []
+  }
+}
